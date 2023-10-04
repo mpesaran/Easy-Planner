@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "dayPlan",
-    "slug": "dayPlan",
+    "name": "easy planner",
+    "slug": "easyPlanner",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.easy.planner",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b50db97e-83cf-4c12-8a42-12199086f60f"
+      }
     }
   }
 }
